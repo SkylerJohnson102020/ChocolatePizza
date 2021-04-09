@@ -39,14 +39,6 @@ header {
     
 }
 
-p {
-    display: inline;
-    position: relative;
-    top: 10px;
-    right: 100px;
-    /* margin-bottom: 150px; */ 
-}
-
 hr {
     height: 10px;
     background-color: #DDD;
@@ -63,23 +55,35 @@ hr {
     /* justify-content: left; */
 }
 
+p {
+    display: inline;
+    position: relative;
+    top: 10px;
+    right: 100px;
+    /* margin-bottom: 150px; */ 
+}
+
 #posted {
 
 }
 
 .post {
-   
+   display: flex;
+}
+
+#posted {
+    
 }
 
 main {
-    margin-top: 50px;
+    margin: 50px 0px 5px 100px;
     width: 900px;
 }
 
 .maintext {
-    text-indent: 1rem;
-    /* margin-left: 150px; */
-    margin-top: 10px;
+    text-indent: 2rem;
+    margin: 15px;
+    color: grey;
 }
 
 .list {
@@ -137,6 +141,7 @@ button {
     background-color: rgb(205, 103, 91);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 #footlogo {
@@ -148,3 +153,4 @@ button {
     align-items: center;
     opacity: 0.50;
 }
+
