@@ -68,11 +68,16 @@ p {
 }
 
 .post {
-   display: flex;
+   /* display: flex; */
 }
 
-#posted {
-    
+#print {
+    display: flex;
+}
+
+#printicon {
+    width: 10px;
+    height: 10px;
 }
 
 main {
