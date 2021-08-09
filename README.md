@@ -1,3 +1,3 @@
 # Chocolate Pizza
 
-I had a lot of fun doing this lab assignment. My Pair Programming partner was Kyle Hoac.
+CSS3 project to copy blog article styling. Pair programming with Kyle Hoac.
